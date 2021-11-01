@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,html{
+  height: 100%;
+}
+
+.intro {
+  height: 100%;
+  background: url('../images/intro-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.intro-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  opacity: .85;
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+  color: cyan;
+  margin-top: 40px;
+}
+.intro-overlay img{
+  height: 380px;
+  width: 350px;
+  margin:55px 150px 0px 0px ;
+  float: right;
+  border:5px solid white;
+}
+
+.me{
+  height: 200px;
+  width: 650px;
+  position: relative;
+  margin:160px 50px 0px 70px ;
+  font-size: 25px;
+  color: rgb(208, 212, 212);
+ 
+  padding:30px 0px 0px 30px ;
+}
+
+.pages{
+  position: relative;
+  height: 40px;
+  width: 500px;
+  margin:auto;
+  margin-top: 90px;
+  font-size: 20px;
+}
+.pages a{
+  color: aqua;
+  text-decoration: none;
+}
+
+.pages td:first-child{
+  padding-left: 55px;
+}
+
+
+.pages td{
+  padding:0px 15px 0px 15px;
+}
+
+                                                    /*about*/
+
+.about{
+  height: 300px;
+  width:400px;
+  color: rgb(208, 212, 212);
+  font-size: 20px;
+  margin:80px 0px 0px 140px;
+  float:left;
+}
+
+.form{
+  height: 500px;
+  width:400px;
+  float: right;
+  background-color: rgb(228, 220, 220);
+  border: 5px solid rgb(30, 31, 31);
+  margin:10px 70px 0px 0px;
+}
+
+.form{
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 10px;
+}
+
+.form span{
+  font-size: 30px;
+}
+
+.form
+input[type=text], input[type=password] {
+  width: 92%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+}
+
+.form
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 97%;
+  opacity: 0.9;
+}
+
+.form
+.registerbtn:hover {
+  opacity:1;
+}
+
+.form a {
+  color: dodgerblue;
+}
+
+.form
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+                                                    /*Achievements*/
+
+.box{
+  height:540px;
+  width: 99.5%;
+  color: rgb(208, 212, 212);
+}    
+.box span{
+  font-size:25px;
+  padding-left: 33%;
+}
+
+.box1{
+  height:120px;
+  width: 60%; 
+  margin:20px auto;
+  font-size: 20px;
+} 
+.box2{
+  height:120px;
+  width: 60%;
+  margin:20px auto;
+  font-size: 20px;
+} 
+.box3{
+  height:120px;
+  width: 60%;
+  font-size: 20px;
+  margin: auto;
+ 
+} 
+.box4{
+  height:70px;
+  width: 60%;
+  font-size: 20px;
+  margin:20px auto;
+  text-align: center;
+} 
+.box4 span{
+  padding-left: 0%;
+}
+
+                                                           /*contact*/
+
+                                                         
+.contact{
+  height: 180px;
+  width: 100%;
+  color: rgb(208, 212, 212);
+  font-size: 25px;
+  text-align: center;
+  padding-top: 120px;
+}
+.icon{
+  height: 75px;
+  width: 600px;
+  margin:auto;
+  /*border:2px solid rgb(158, 23, 23);
+  background-color: black;
+  border-radius: 15px;*/
+}
+
+.icon img{
+  height: 60px;
+  width: 60px;
+  margin:0px;
+  padding-left: 60px;
+  border:none;
+}
+.icon td{
+  padding: 6px 0px 0px 10px;
+}
+
+                                                            /*copyright*/
+.pic{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: url('../images/me.jpg');
+  margin: 70px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name{
+  margin: auto;
+  color: rgb(208, 212, 212);
+  text-align: center;
+}
